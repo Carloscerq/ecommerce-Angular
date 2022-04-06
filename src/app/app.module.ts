@@ -11,6 +11,9 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
+import { MatGridListModule } from '@angular/material/grid-list';
+
+
 import { HomeComponent } from './components/home/home.component';
 import { CartComponent } from './components/cart/cart.component';
 
@@ -31,6 +34,7 @@ import { CartComponent } from './components/cart/cart.component';
     MatButtonModule,
     MatSidenavModule,
     MatListModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
