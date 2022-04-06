@@ -1,0 +1,39 @@
+{
+    "items": [
+        {
+            "id": "1",
+            "name": "Shape 1",
+            "type": "shape",
+            "price": "10",
+            "image": "https://a-static.mlcdn.com.br/618x463/shape-maple-skate-black-sheep-8-0/lojaollieskateshop/714920374/b1ae257d3aa796c2f90cdb03753534c2.jpg"
+        },
+        {
+            "id": "2",
+            "name": "Shape 2",
+            "type": "shape",
+            "price": "15",
+            "image": "https://cdn.shopify.com/s/files/1/2802/3244/products/shape-element-maple-fortunato-blkpnt-pro-8375-e232a0127x0000u-matriz-skate-shop-340684_grande.jpg?v=1648809213"
+        },
+        {
+            "id": "3",
+            "name": "Shape 3",
+            "type": "shape",
+            "price": "15",
+            "image": "https://cdn.shopify.com/s/files/1/2802/3244/products/shape-primitive-maple-dirty-p-brazil-1005100001-matriz-skate-shop-423808_grande.jpg?v=1648809277"
+        },
+        {
+            "id": "4",
+            "name": "Shape 4",
+            "type": "shape",
+            "price": "25",
+            "image": "https://cdn.shopify.com/s/files/1/2802/3244/products/shape-element-maple-section-825-e232a0006x0000u-matriz-skate-shop-786510_grande.jpg?v=1648809196"
+        },
+        {
+            "id": "5",
+            "name": "Shape 5",
+            "type": "shape",
+            "price": "150",
+            "image": "https://cdn.shopify.com/s/files/1/2802/3244/products/shape-primitive-maple-vianna-pro-tamarin-1005100008-matriz-skate-shop-844096_grande.jpg?v=1648809276"
+        }
+    ]
+}
