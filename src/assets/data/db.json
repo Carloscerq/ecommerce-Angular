@@ -19,7 +19,7 @@
             "name": "Shape 3",
             "type": "shape",
             "price": "15",
-            "image": "https://cdn.shopify.com/s/files/1/2802/3244/products/shape-primitive-maple-dirty-p-brazil-1005100001-matriz-skate-shop-423808_grande.jpg?v=1648809277"
+            "image": "https://cdn.shopify.com/s/files/1/2802/3244/products/shape-april-maple-shane-vintage-matriz-skate-shop-905701_grande.jpg?v=1648153752"
         },
         {
             "id": "4",
@@ -35,5 +35,6 @@
             "price": "150",
             "image": "https://cdn.shopify.com/s/files/1/2802/3244/products/shape-primitive-maple-vianna-pro-tamarin-1005100008-matriz-skate-shop-844096_grande.jpg?v=1648809276"
         }
-    ]
+    ],
+    "cart": []
 }
