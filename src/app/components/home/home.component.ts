@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpConnectService } from "../../services/http-connect.service";
+import { CartService } from "../../services/cart.service";
 import { Products } from "../../dto/products";
 
 @Component({
@@ -12,7 +13,8 @@ export class HomeComponent implements OnInit {
   products: Products[] = [];
 
   constructor(
-    private httpConnectService: HttpConnectService
+    private httpConnectService: HttpConnectService,
+    private cartService: CartService
   ) { }
 
   ngOnInit(): void {
@@ -23,5 +25,9 @@ export class HomeComponent implements OnInit {
     this.httpConnectService.getProducts().subscribe(
       (data: Products[]) =>  this.products = data
     );
+  }
+
+  addToCart(product: Products) {
+    this.cartService.addToCart(product);
   }
 }

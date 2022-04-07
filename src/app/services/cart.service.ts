@@ -15,6 +15,10 @@ export class CartService {
     private httpClient: HttpClient
   ) { }
 
+  httpOptions = {
+    headers: new HttpHeaders({ 'Content-Type': 'application/json' })
+  }
+
   errorHandler(error: HttpErrorResponse) {
     let errorMessage = error.error.message;
     return throwError(errorMessage);
@@ -29,7 +33,7 @@ export class CartService {
   }
 
   addToCart(product: Products) {
-    return this.httpClient.post(this.URL, product)
+    return this.httpClient.post(this.URL, JSON.stringify(product), this.httpOptions)
       .pipe(
         retry(1),
         catchError(this.errorHandler)

@@ -6,7 +6,7 @@
         </mat-card-header>
         <img mat-card-image src={{product.image}} alt="Product" class="product-card-image">
         <mat-card-actions>
-            <button mat-button>ADD TO CART</button>
+            <button mat-button (click)="addToCart(product)">ADD TO CART</button>
         </mat-card-actions>
     </mat-card>
 </main>
